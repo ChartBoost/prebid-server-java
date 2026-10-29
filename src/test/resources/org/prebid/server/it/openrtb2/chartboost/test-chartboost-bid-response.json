@@ -1,0 +1,21 @@
+{
+  "id": "request_id",
+  "cur": "USD",
+  "seatbid": [
+    {
+      "seat": "chartboost",
+      "bid": [
+        {
+          "id": "bid_id",
+          "impid": "imp_id",
+          "price": 3.33,
+          "adm": "<div>banner</div>",
+          "crid": "crid001",
+          "w": 320,
+          "h": 50,
+          "mtype": 1
+        }
+      ]
+    }
+  ]
+}

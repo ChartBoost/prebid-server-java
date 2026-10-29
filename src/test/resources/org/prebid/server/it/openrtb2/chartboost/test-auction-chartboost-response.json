@@ -1,0 +1,42 @@
+{
+  "id": "request_id",
+  "seatbid": [
+    {
+      "bid": [
+        {
+          "id": "bid_id",
+          "impid": "imp_id",
+          "price": 3.33,
+          "adm": "<div>banner</div>",
+          "crid": "crid001",
+          "w": 320,
+          "h": 50,
+          "exp": 300,
+          "mtype": 1,
+          "ext": {
+            "prebid": {
+              "type": "banner",
+              "meta": {
+                "adaptercode": "chartboost"
+              }
+            },
+            "origbidcpm": 3.33,
+            "origbidcur": "USD"
+          }
+        }
+      ],
+      "seat": "chartboost",
+      "group": 0
+    }
+  ],
+  "cur": "USD",
+  "ext": {
+    "responsetimemillis": {
+      "chartboost": "{{ chartboost.response_time_ms }}"
+    },
+    "prebid": {
+      "auctiontimestamp": 0
+    },
+    "tmaxrequest": 5000
+  }
+}

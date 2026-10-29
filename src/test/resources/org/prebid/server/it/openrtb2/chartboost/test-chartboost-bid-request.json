@@ -1,0 +1,53 @@
+{
+  "id": "request_id",
+  "imp": [
+    {
+      "id": "imp_id",
+      "secure": 1,
+      "banner": {
+        "w": 320,
+        "h": 50
+      },
+      "ext": {
+        "tid": "${json-unit.any-string}",
+        "bidder": {
+          "app_id": "app-id-0",
+          "location_name": "Default"
+        }
+      }
+    }
+  ],
+  "app": {
+    "id": "app-id-0",
+    "bundle": "com.chartboost.example"
+  },
+  "device": {
+    "ua": "userAgent",
+    "ip": "193.168.244.1"
+  },
+  "at": 1,
+  "tmax": "${json-unit.any-number}",
+  "cur": [
+    "USD"
+  ],
+  "source": {
+    "tid": "${json-unit.any-string}"
+  },
+  "regs": {
+    "gdpr": 0
+  },
+  "ext": {
+    "prebid": {
+      "channel": {
+        "name": "app"
+      },
+      "server": {
+        "externalurl": "http://localhost:8080",
+        "gvlid": 1,
+        "datacenter": "local",
+        "http_method": "POST",
+        "endpoint": "/openrtb2/auction"
+      }
+    }
+  }
+}

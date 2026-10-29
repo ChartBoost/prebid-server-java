@@ -1,0 +1,28 @@
+{
+  "id": "request_id",
+  "imp": [
+    {
+      "id": "imp_id",
+      "banner": {
+        "w": 320,
+        "h": 50
+      },
+      "ext": {
+        "chartboost": {
+          "app_id": "app-id-0",
+          "location_name": "Default"
+        }
+      }
+    }
+  ],
+  "app": {
+    "id": "app-id-0",
+    "bundle": "com.chartboost.example"
+  },
+  "tmax": 5000,
+  "regs": {
+    "ext": {
+      "gdpr": 0
+    }
+  }
+}
